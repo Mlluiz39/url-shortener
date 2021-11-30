@@ -1,0 +1,1 @@
+mongodb+srv://<username>:<password>@url-shortner-dio.kv3eb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
