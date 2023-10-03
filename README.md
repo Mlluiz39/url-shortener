@@ -1,3 +1,3 @@
-# dio-url-shortener
-### Projeto de encurtador de url's da DIO
-Projeto feito em acompanhamento do bootcamp EDUZZ na DIO.
+# Url-shortener
+### Projeto de encurtador de url's
+Projeto feito para comprovar os conhecimentos adquiridos na unidade 3
