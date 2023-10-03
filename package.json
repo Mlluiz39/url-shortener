@@ -1,7 +1,7 @@
 {
   "name": "encurtador-url",
   "version": "1.0.0",
-  "": "URL Shortener for DIO Project",
+  "": "URL Shortener for mlluiz Project",
   "main": "./dist/index.js",
   "scripts": {
     "start": "node ./",

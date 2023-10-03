@@ -1,5 +1,5 @@
 export const config = {
-  API_URL: 'http://localhost:5000',
+  API_URL: 'http://localhost:3000',
   MONGO_CONNECTION:
-  'mongodb+srv://Mlluiz39:Julia2912@url-shortner-dio.kv3eb.mongodb.net/url-shortner-dio?retryWrites=true&w=majority'
+  'mongodb+srv://mlluiz39:Julia2912@cluster0.bqnsezb.mongodb.net/?retryWrites=true&w=majority'
 }

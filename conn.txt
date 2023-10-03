@@ -1,1 +1,1 @@
-mongodb+srv://<username>:<password>@url-shortner-dio.kv3eb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+mongodb+srv://<username>:<password>@cluster0.bqnsezb.mongodb.net/?retryWrites=true&w=majority

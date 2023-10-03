@@ -7,16 +7,13 @@ export class URLController {
   public async shorten(req: Request, res: Response): Promise<void> {
     const { originURL } = req.body
     const url = await URLModel.findOne({ originURL })
-    
-    async (params: string) => {
-      if (url) {
-        res.json(url)
-        return
-      }
-      if (!url) {
-        res.status(400).json({ error: 'Error' })
-        return
-      }
+    if (url) {
+      res.json(url)
+      return
+    }
+    if (!url) {
+      res.status(400).json({ error: 'Error' })
+      return
     }
 
     const hash = shortid.generate()
