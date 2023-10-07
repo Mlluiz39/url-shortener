@@ -4,7 +4,7 @@ Projeto feito para comprovar os conhecimentos adquiridos na unidade 3
 
 # Encurtador de URL
 
-O Encurtador de URL é uma aplicação web simples que permite encurtar URLs longas em URLs curtas. Este projeto é construído usando Node.js, Express.js, MongoDB e Docker.
+O Encurtador de URL é uma aplicação web simples que permite encurtar URLs longas em URLs curtas. Este projeto é construído usando Node.js, typescript, Express.js, MongoDB e Docker.
 
 ## Pré-requisitos
 
