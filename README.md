@@ -28,9 +28,9 @@ O Encurtador de URL é uma aplicação web simples que permite encurtar URLs lon
 
    yarn
 
-   Uso
+   ## Uso
 
-   ## Inicie o servidor:
+   ### Inicie o servidor:
 
    npm run dev / yarn dev
 
