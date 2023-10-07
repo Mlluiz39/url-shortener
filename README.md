@@ -10,7 +10,7 @@ O Encurtador de URL é uma aplicação web simples que permite encurtar URLs lon
 
 - Node.js: Certifique-se de ter o Node.js instalado em sua máquina. Você pode fazer o download em [nodejs.org](https://nodejs.org/).
 
-- Yarn ou npm: Certifique-se de ter yarn instalado ou faca uso do npm que ja vem no node.
+- Yarn ou npm: Certifique-se de ter yarn instalado [yarn](https://yarnpkg.com/) ou faça uso do npm que ja vem no node.
 
 - TypeScript: Instalar typescript para rodar o projeto e fazer o build.
 
