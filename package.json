@@ -8,9 +8,7 @@
     "build": "tsc -p .",
     "dev": "ts-node-dev --respawn  -r tsconfig-paths/register --transpile-only --quiet --clear --ignore-watch node_modules --no-notify src/index.ts"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "keywords": [],
   "author": "Marcelo Luiz",
   "license": "MIT",
   "dependencies": {
