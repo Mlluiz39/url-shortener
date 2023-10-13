@@ -1,6 +1,7 @@
 import express from 'express'
 import { URLController } from './controller/URLController'
 import { MongoConnection } from './database/MongoConnection'
+import 'dotenv/config'
 
 const app = express()
 const PORT = 3000
