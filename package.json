@@ -4,7 +4,7 @@
   "": "URL Shortener for mlluiz Project",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "node ./",
+    "start": "node ./dist/index.js",
     "build": "tsc -p .",
     "dev": "ts-node-dev --respawn  -r tsconfig-paths/register --transpile-only --quiet --clear --ignore-watch node_modules --no-notify src/index.ts"
   },
@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "http-status-code": "^2.1.0",
     "http-status-codes": "^2.1.4",
+    "mongodb": "^6.1.0",
     "mongoose": "^6.0.14",
     "shortid": "^2.2.16"
   },
