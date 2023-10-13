@@ -2,9 +2,9 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "URL Shortener for mlluiz Project",
-  "main": "index.js",
+  "main": "src/dist/index.js",
   "scripts": {
-    "start": "node ./dist/index.js",
+    "start": "node src/dist/index.js",
     "build": "tsc -p .",
     "dev": "ts-node-dev --respawn  -r tsconfig-paths/register --transpile-only --quiet --clear --ignore-watch node_modules --no-notify src/index.ts"
   },
