@@ -2,7 +2,7 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "description": "URL Shortener for mlluiz Project",
-  "main": "src/dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node src/dist/index.js",
     "build": "tsc -p .",
