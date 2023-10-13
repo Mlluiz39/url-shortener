@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import { config } from '../config/Constants'
 
 interface ConnectOptions {
   bufferCommands?: boolean
@@ -11,7 +10,7 @@ interface ConnectOptions {
 export class MongoConnection {
   public async connect(): Promise<void> {
     try {
-      mongoose.connect(config.MONGO_CONNECTION || '', {
+      mongoose.connect(process.env.MONGO_CONNECTION || 'mongodb://localhost:27017', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       } as ConnectOptions)
