@@ -5,7 +5,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "rootDir": "src",
-    "lib": ["ES2022", "DOM", "ES7", "DOM.Iterable"],
+    //"lib": ["ES2022", "DOM", "ES7", "DOM.Iterable"],
     "typeRoots": [
       "src/@types",
       "./node_modules/@types",

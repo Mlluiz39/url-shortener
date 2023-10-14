@@ -1,10 +1,10 @@
+import 'dotenv/config'
 import express from 'express'
 import { URLController } from './controller/URLController'
 import { MongoConnection } from './database/MongoConnection'
-import 'dotenv/config'
 
 const app = express()
-const PORT = 3000
+
 
 app.use(express.json())
 
@@ -18,6 +18,6 @@ app.get('/', urlController.getAllURLs)
 app.get('/url/:id', urlController.getShortenedURLById);
 app.get('/urls/:date', urlController.getURLsByDate);
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`)
+app.listen(3000, () => {
+  console.log(`Server listening on port ${3000}`)
 })
